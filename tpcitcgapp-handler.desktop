@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Pokemon TCG Live Handler (Steam)
+Exec=/home/<username>/.local/bin/ptcgl-handler.sh %u
+Type=Application
+Terminal=false
+MimeType=x-scheme-handler/tpcitcgapp;
+NoDisplay=true
