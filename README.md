@@ -23,5 +23,7 @@ Get Pokemon TCG Live game working on steam with Linux
 - Run `pwd` and take note of this path and the exe name you'll need that all together here in a moment
 - Open Steam, Library, right-click on `Pokemon TCG Live` and select Properties under Shortcut you'll see the name you change earlier and `Target` and `Start In`, for Target using quotes `"/home/<username>/.local/share/Steam/steamapps/compatdata/<appid>/pfx/drive_c/users/steamuser/The Pokemon Company International/Pokemon Trading Card Game Live/Pokemon TCG Live.exe"` and for Start In it'll look like `"/home/developer/.local/share/Steam/steamapps/compatdata/3131373328/pfx"` in quotes, exit from Properties.
 - Close the terminal that Protontricks open and you should get the Protontricks window back, choose "Install a Windows DLL or component" and select `vcrun2019`, once this completes you
-- (Optional) Open Steam and start `Pokemon TCG Live` this will just check to see if the game is working enough to do the rest and ensure that all the work you've done up to this point is correct
-- 
+- (Optional) Open Steam and start `Pokemon TCG Live` this will just check to see if the game is working enough to do the rest and ensure that all the work you've done up to this point is correct, you should be able to choose a language but then the login part will fail that is expect, if you did this step then close out of the game now
+- Download the `steam_fix.reg` file from this repo
+- Open Protontricks again and choose `Run regedit`, once regedit is open under the `Registry` menu and choose `Import Registry File` and select the `steam_fix.reg` file and you should get a dialog saying it was imported correct, click ok on that and close out of the registry and Protontricks we won't need that any longer
+- Download 
