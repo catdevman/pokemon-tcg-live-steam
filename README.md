@@ -1,7 +1,7 @@
 # pokemon-tcg-live-steam
 Get Pokemon TCG Live game working on steam with Linux
 
-#Prereqs
+# Prereqs
 - Steam installed
 - Protontricks installed
 
