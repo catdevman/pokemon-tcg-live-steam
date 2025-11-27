@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\tpcitcgapp]
+@="URL:tpcitcgapp Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\tpcitcgapp\shell]
+
+[HKEY_CLASSES_ROOT\tpcitcgapp\shell\open]
+
+[HKEY_CLASSES_ROOT\tpcitcgapp\shell\open\command]
+@="\"C:\\users\\steamuser\\The Pokemon Company International\\Pokémon Trading Card Game Live\\Pokemon TCG Live.exe\" \"%1\""
