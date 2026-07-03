@@ -30,7 +30,7 @@ Get Pokemon TCG Live game working on Steam with Linux.
   - Start In (include the quotes):  "/home/<your-username>/.local/share/Steam/steamapps/compatdata/<random_number>/pfx/"
   - Make sure to replace  <your-username>  and the  <random_number>  with your actual paths!
 
-4. Important: Keep the  UMU_ID=umu-ptcgl %command%  in the Launch Options.
+4. Important: Keep the `UMU_ID=umu-ptcgl %command%`  in the Launch Options.
 
 ## Play
 
