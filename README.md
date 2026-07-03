@@ -25,9 +25,11 @@ Get Pokemon TCG Live game working on Steam with Linux.
 1. Open the Properties of the shortcut again.
 2. Change the Shortcut Name to  Pokemon TCG Live .
 3. Change the Target and Start In fields to point to the newly installed executable. The installer usually puts it in a path similar to this:
-    • Target (include the quotes):  "/home/<your-username>/.local/share/Steam/steamapps/compatdata/<random_number>/pfx/drive_c/users/steamuser/The Pokémon Company Interational/Pokémon Trading Card Game Live/Pokemon TCG Live.exe"
-    • Start In (include the quotes):  "/home/<your-username>/.local/share/Steam/steamapps/compatdata/<random_number>/pfx/"
-    (Make sure to replace  <your-username>  and the  <random_number>  with your actual paths!)
+
+  - Target (include the quotes):  "/home/<your-username>/.local/share/Steam/steamapps/compatdata/<random_number>/pfx/drive_c/users/steamuser/The Pokémon Company Interational/Pokémon Trading Card Game Live/Pokemon TCG Live.exe"
+  - Start In (include the quotes):  "/home/<your-username>/.local/share/Steam/steamapps/compatdata/<random_number>/pfx/"
+  - Make sure to replace  <your-username>  and the  <random_number>  with your actual paths!
+
 4. Important: Keep the  UMU_ID=umu-ptcgl %command%  in the Launch Options.
 
 ## Play
